@@ -36,7 +36,6 @@
  * it can not have the same properties as the in class sample code
  * Also include two other properties of your choice (like name, creationDate, etc.)
 * use the `body-parser` express middleware to on `POST` and `PUT` routes
-* save your data using the storage module with file system persistence from last week
 
 ## Server Endpoints
 ### `/api/resource-name`
