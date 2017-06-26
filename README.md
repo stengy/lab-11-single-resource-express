@@ -17,11 +17,12 @@
   * how to install
   * how to start the server
   * document the routes
-* include any necessary NPM scripts
- * have a lint script for running eslint
- * have a test script for running mocha
- * have a start-db script for running mongod
- * have a stop-db script for stoping mongod
+* include a package.json 
+  * have a lint script for running eslint
+  * have a test script for running mocha
+  * start script for running your server
+  * have a start-db script for running mongod
+  * have a stop-db script for stoping mongod
 
 # Directions
 * Create these directories to organize your code:
