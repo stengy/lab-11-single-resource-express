@@ -59,7 +59,8 @@
  * `GET` - test 200, response body like `{<data>}` for a request made with a valid id
  * `PUT` - test 200, response body like  `{<data>}` for a post request with a valid body
  * `POST` - test 200, response body like  `{<data>}` for a post request with a valid body
+ * `POST` - test 400, with an invalid request body
 
 ## Bonus
-* **1pt** a `GET` request to `/api/resource-name` should rerun an array of all of the ids for that resource
+* **1pt** a `GET` request to `/api/resource-name` should respond with an array of all of the ids for that resource
  * if you do the bonus you should not test for a 404 for `GET` request with no query, and instead write a test that ensures your a `GET` to `/api/resouce-name` returns a 200 and an array
